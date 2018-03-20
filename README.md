@@ -1,3 +1,5 @@
+
+
 # Grupa11-TimNoName
 
 # Cinema
@@ -15,8 +17,8 @@ Aplikacija Cinema omogućava online kupovinu karata za posjetu kina u vašem okr
 
 # Procesi:
 
-- **Kreiranje računa** - Korisnik se može registrirati unošenjem neophodnih podatak, te pravljenjem računa mogu ostvariti različite popuste.
+**Kreiranje računa** - Korisnik se može registrirati unošenjem neophodnih podatak, te pravljenjem računa mogu ostvariti različite popuste.
 
-
+**Prijava na ra
 
 
