@@ -15,7 +15,7 @@ Aplikacija Cinema omogućava online kupovinu karata za posjetu kina u vašem okr
 
 # Procesi:
 
-**Kreiranje računa** 
+- **Kreiranje računa** 
 ```
 Korisnik se može registrirati unošenjem neophodnih podatak, te pravljenjem računa mogu ostvariti različite popuste.
 ```
