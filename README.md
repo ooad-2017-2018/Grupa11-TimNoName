@@ -17,35 +17,35 @@ Aplikacija Cinema omogućava online kupovinu karata za posjetu kina u vašem okr
 
 # Procesi:
 
-**Kreiranje računa** - Korisnik se može registrirati unošenjem neophodnih podatak, te pravljenjem računa može ostvariti različite popuste. Sistem validira unesene podatke, te ukoliko je sve u redu odobrava kreiranje računa, a u suprotnom daje budućem korisniku poruku da podatci nisu u potpunosti pravilno uneseni. Podatci koji se unose: ime, prezime, datum rođenja, željeni user name, kako je korisnik saznao za aplikaciju, adresa stanovanja, mail. Uz unošenje podataka korisnik mora potvrditi saglasnost s uslovima korištenja aplikacije koji su mu dostupni za pregled.
+- **Kreiranje računa** - Korisnik se može registrirati unošenjem neophodnih podatak, te pravljenjem računa može ostvariti različite popuste. Sistem validira unesene podatke, te ukoliko je sve u redu odobrava kreiranje računa, a u suprotnom daje budućem korisniku poruku da podatci nisu u potpunosti pravilno uneseni. Podatci koji se unose: ime, prezime, datum rođenja, željeni user name, kako je korisnik saznao za aplikaciju, adresa stanovanja, mail. Uz unošenje podataka korisnik mora potvrditi saglasnost s uslovima korištenja aplikacije koji su mu dostupni za pregled.
 
-**Prijava na račun** - Korisnik se može prijaviti koristeći svoju lozinku i user name. Sistem validira podatke, te ukoliko postoji korisnik s unesenim podatcima, odobrava pristup stranici.
+- **Prijava na račun** - Korisnik se može prijaviti koristeći svoju lozinku i user name. Sistem validira podatke, te ukoliko postoji korisnik s unesenim podatcima, odobrava pristup stranici.
 
-**Prijava kao gost** - Korisnik se može prijaviti kao gost bez unošenja podataka, ali uz limitirane opcije na samoj stranici.
+- **Prijava kao gost** - Korisnik se može prijaviti kao gost bez unošenja podataka, ali uz limitirane opcije na samoj stranici.
 
-**Pretraživanje sadržaja** - Korisnik ili gost može pretraživati dostupan sadržaj. Gost može pristupiti bilo kojoj od kategorija na stranici, te pregledavati tu kategoriju. 
+- **Pretraživanje sadržaja** - Korisnik ili gost može pretraživati dostupan sadržaj. Gost može pristupiti bilo kojoj od kategorija na stranici, te pregledavati tu kategoriju. 
 
-**Korisnikovo brisanje računa** - Korisnik može obrisati svoj račun.
+- **Korisnikovo brisanje računa** - Korisnik može obrisati svoj račun.
 
-**Biranje lokacije** - Korisnik može odabrati lokaciju gdje želi gledati film, tj. može odrediti državu, grad, te kino u kojem želi gledati film, te u skladu s tim će mu biti prikazan dalji sadržaj.
+- **Biranje lokacije** - Korisnik može odabrati lokaciju gdje želi gledati film, tj. može odrediti državu, grad, te kino u kojem želi gledati film, te u skladu s tim će mu biti prikazan dalji sadržaj.
 
-**Rezervacija karte** - Korisnik, ukoliko nađe film koji mu se dopada, može rezervirati kartu za tu projekciju, te također bira sjedište po želji. Ukoliko više nema slobodnih mjesta za projekciju korisnik dobija poruku da mu se ne može izdati karta za film. Ova akcija se vrši od strane sistema.
+- **Rezervacija karte** - Korisnik, ukoliko nađe film koji mu se dopada, može rezervirati kartu za tu projekciju, te također bira sjedište po želji. Ukoliko više nema slobodnih mjesta za projekciju korisnik dobija poruku da mu se ne može izdati karta za film. Ova akcija se vrši od strane sistema.
 
-**Obračun cijene** - Nakon što je korisnik napravio rezervaciju vrši se obračunavanje iznosa koji se mora platiti, te se uzimaju u obzir različiti popusti, u ovisnosti je li u pitanju student, penzionisana osoba ili dijete do 7 godina. Ukoliko je u pitanju neka od navedenih osoba modificira se konačni iznos koji se predstavlja korisniku.
+- **Obračun cijene** - Nakon što je korisnik napravio rezervaciju vrši se obračunavanje iznosa koji se mora platiti, te se uzimaju u obzir različiti popusti, u ovisnosti je li u pitanju student, penzionisana osoba ili dijete do 7 godina. Ukoliko je u pitanju neka od navedenih osoba modificira se konačni iznos koji se predstavlja korisniku.
 
-**Otkazivanje rezervacije** - Korisnik može otkazati rezervaciju za neki film uz ili povrat ili nepovrat novca, uzimajući u obzir o kakvoj se situaciji radi.
+- **Otkazivanje rezervacije** - Korisnik može otkazati rezervaciju za neki film uz ili povrat ili nepovrat novca, uzimajući u obzir o kakvoj se situaciji radi.
 
-**Odjava** - Korisnik se može odjaviti kada završi s pretragom sadržaja.
+- **Odjava** - Korisnik se može odjaviti kada završi s pretragom sadržaja.
 
-**Ocjenjivanje filma** - Korisnik može ocijeniti film ocjenom od 1 do 5.
+- **Ocjenjivanje filma** - Korisnik može ocijeniti film ocjenom od 1 do 5.
 
-**Brisanje računa(Admin)** - Admin je u mogućnosti obrisati račun korisnika, ukoliko korisnik krši neki od uslova korištenja aplikacije
+- **Brisanje računa(Admin)** - Admin je u mogućnosti obrisati račun korisnika, ukoliko korisnik krši neki od uslova korištenja aplikacije
 
-**Dodavanje sadržaja** - Admin može dodavati različite nove filmove
+- **Dodavanje sadržaja** - Admin može dodavati različite nove filmove
 
-**Brisanje sadržaja** - Admin je u mogućnosti i obrisati neki sadržaj na stranici
+- **Brisanje sadržaja** - Admin je u mogućnosti i obrisati neki sadržaj na stranici
 
-**Ažuriranje sadržaja** - Admin može ažurirati različite podatke za filmove, popuste, ili određene specijalne akcije
+- **Ažuriranje sadržaja** - Admin može ažurirati različite podatke za filmove, popuste, ili određene specijalne akcije
 
 # Funkcionalnosti:
 
