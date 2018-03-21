@@ -71,7 +71,10 @@ Aplikacija Cinema omogućava online kupovinu karata za posjetu kina u vašem okr
 
 # Akteri:
 
--**Admin** - vrši nadzor nad sadržajem stranice, briše račune korisnika koji krše pravila, dodaje novi sadržaj, briše nepotreban sadržaj
--**K-Gost** - Korisnik koji nije unio sve podatke potrebne za registraciju već samo želi pregledavati određeni sadržaj bez mogućnosti rezervacije karata ili uživanja u pogodnostima registriranih korisnika
--**Korisnik** - Registrirani korisnik koji je unio sve podatke te uživa u svim prednostima aplikacije
--**Sistem** - Vrši sve automatske radnje, te regulira komunikaciju drugih aktera
+- **Admin** - vrši nadzor nad sadržajem stranice, briše račune korisnika koji krše pravila, dodaje novi sadržaj, briše nepotreban sadržaj
+
+- **K-Gost** - Korisnik koji nije unio sve podatke potrebne za registraciju već samo želi pregledavati određeni sadržaj bez mogućnosti rezervacije karata ili uživanja u pogodnostima registriranih korisnika
+
+- **Korisnik** - Registrirani korisnik koji je unio sve podatke te uživa u svim prednostima aplikacije
+
+- **Sistem** - Vrši sve automatske radnje, te regulira komunikaciju drugih aktera
