@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="Cinema.AzuriranjeSadrzaja"
+    x:Class="Cinema.BrisanjeSadrzaja"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Cinema"
@@ -20,7 +20,7 @@
         <TextBox x:ConnectionId='4' x:Name="tbTrailer" HorizontalAlignment="Left" Margin="560,332,0,0" Text="" VerticalAlignment="Top" Width="194"/>
         <TextBox x:ConnectionId='5' x:Name="tbRed" HorizontalAlignment="Left" Margin="560,267,0,0" Text="" VerticalAlignment="Top" Width="194"/>
         <TextBox x:ConnectionId='6' x:Name="tbNaziv" HorizontalAlignment="Left" Margin="560,201,0,0" Text="" VerticalAlignment="Top" Width="194"/>
-        <Button x:ConnectionId='7' x:Name="dug" Content="Ažuriraj podatke" HorizontalAlignment="Left" Margin="400,470,0,0" VerticalAlignment="Top" Width="150" Height="44" />
+        <Button x:ConnectionId='7' x:Name="dug" Content="Izbriši podatke" HorizontalAlignment="Left" Margin="400,470,0,0" VerticalAlignment="Top" Width="150" Height="44" />
         <Button x:ConnectionId='8' x:Name="dugP" Content="Povratak" HorizontalAlignment="Left" Margin="600,470,0,0" VerticalAlignment="Top" Width="150" Height="44"                    />
         <local:IDpretraga x:ConnectionId='9' x:Name="IDP" HorizontalAlignment="Left" Margin="403,126,0,0" VerticalAlignment="Top"/>
         <Button x:ConnectionId='10' x:Name="dP" Content="Pretraga" HorizontalAlignment="Left" Margin="668,126,0,0" VerticalAlignment="Top"/>

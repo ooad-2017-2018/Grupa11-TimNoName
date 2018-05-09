@@ -29,7 +29,7 @@
                 <TextBox x:Name="tbUn" HorizontalAlignment="Left" Margin="400,-40,0,0" VerticalAlignment="Top" Width="269" Height="41"/>
                 <TextBlock x:Name="pw" HorizontalAlignment="Left" Margin="150,30,0,0" Text="Password:" FontSize="24" TextWrapping="Wrap" VerticalAlignment="Top"/>
                 <PasswordBox x:Name="tbPw" HorizontalAlignment="Left" Margin="400,-40,0,0" VerticalAlignment="Top" Width="269" Height="41"/>
-                <Button x:Name="dReg" Content="Registracija" Margin="350,30,0,74" Height="50" Width="191" HorizontalAlignment="Left"/>
+                <Button x:Name="dReg" Content="Registracija" Margin="350,30,0,74" Height="50" Width="191" HorizontalAlignment="Left" Click="dReg_Click"/>
 
 
             </StackPanel>

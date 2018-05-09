@@ -98,6 +98,9 @@
     <Compile Include="AzuriranjeSadrzaja.xaml.cs">
       <DependentUpon>AzuriranjeSadrzaja.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BrisanjeSadrzaja.xaml.cs">
+      <DependentUpon>BrisanjeSadrzaja.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DodavanjeSadržaja.xaml.cs">
       <DependentUpon>DodavanjeSadržaja.xaml</DependentUpon>
     </Compile>
@@ -153,6 +156,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="AzuriranjeSadrzaja.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BrisanjeSadrzaja.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

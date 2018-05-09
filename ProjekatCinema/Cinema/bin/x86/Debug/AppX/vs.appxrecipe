@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-ERRVT8E</Machine>
-    <WindowsUser>Edina</WindowsUser>
+    <Machine>SAMIRA</Machine>
+    <WindowsUser>samir</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>b73e0250-9f03-4959-aa3d-e2fb3e8c792e</PackageIdentityName>
     <PackageIdentityPublisher>CN=samir</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>B8EA6669E3755303DF05CB4457F16263F189C35907AC3FEB1C11FE01E9083426</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>9E47127AFF1556FC78DA6452EEA34D9AE6D786A33E8B1B8E5E0535CD45F544EA</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>b73e0250-9f03-4959-aa3d-e2fb3e8c792e_1.0.0.0_x86__zs0qc8kc24g2p</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>b73e0250-9f03-4959-aa3d-e2fb3e8c792e_zs0qc8kc24g2p!App</RegisteredUserModeAppID>
     <RegisteredPackageID>b73e0250-9f03-4959-aa3d-e2fb3e8c792e</RegisteredPackageID>
@@ -28,18 +28,18 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-09T14:50:43.419</Modified>
+      <Modified>2018-05-09T15:52:47.520</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Cinema.exe">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Cinema.exe">
       <PackagePath>entrypoint\Cinema.exe</PackagePath>
-      <Modified>2018-05-09T14:50:42.940</Modified>
+      <Modified>2018-05-09T15:52:43.098</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\.nuget\packages\microsoft.azure.mobile.client\4.0.2\lib\uap10.0\Microsoft.Azure.Mobile.Client.dll">
+    <AppxPackagedFile Include="C:\Users\samir\.nuget\packages\microsoft.azure.mobile.client\4.0.2\lib\uap10.0\Microsoft.Azure.Mobile.Client.dll">
       <PackagePath>Microsoft.Azure.Mobile.Client.dll</PackagePath>
       <Modified>2017-10-11T15:23:28.000</Modified>
     </AppxPackagedFile>
@@ -503,84 +503,84 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T21:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\logo.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\logo.png">
       <PackagePath>Assets\logo.png</PackagePath>
-      <Modified>2018-05-09T12:58:32.076</Modified>
+      <Modified>2018-05-09T14:59:33.029</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-05-09T12:58:32.068</Modified>
+      <Modified>2018-05-09T14:59:33.017</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-09T12:58:32.068</Modified>
+      <Modified>2018-05-09T14:59:33.019</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-09T12:58:32.072</Modified>
+      <Modified>2018-05-09T14:59:33.021</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-09T12:58:32.072</Modified>
+      <Modified>2018-05-09T14:59:33.023</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-09T12:58:32.076</Modified>
+      <Modified>2018-05-09T14:59:33.024</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-09T12:58:32.076</Modified>
+      <Modified>2018-05-09T14:59:33.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-09T12:58:32.076</Modified>
+      <Modified>2018-05-09T14:59:33.028</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\minipoz.jpg">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\minipoz.jpg">
       <PackagePath>Assets\minipoz.jpg</PackagePath>
-      <Modified>2018-05-09T12:58:32.080</Modified>
+      <Modified>2018-05-09T14:59:33.032</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\poz.jpg">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\poz.jpg">
       <PackagePath>Assets\poz.jpg</PackagePath>
-      <Modified>2018-05-09T12:58:32.080</Modified>
+      <Modified>2018-05-09T14:59:33.035</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\pozadina.jpg">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\pozadina.jpg">
       <PackagePath>Assets\pozadina.jpg</PackagePath>
-      <Modified>2018-05-09T12:58:32.080</Modified>
+      <Modified>2018-05-09T14:59:33.037</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\pozzz.jpg">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\pozzz.jpg">
       <PackagePath>Assets\pozzz.jpg</PackagePath>
-      <Modified>2018-05-09T12:58:32.084</Modified>
+      <Modified>2018-05-09T14:59:33.040</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\pozzzz.jpg">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\pozzzz.jpg">
       <PackagePath>Assets\pozzzz.jpg</PackagePath>
-      <Modified>2018-05-09T12:58:32.084</Modified>
+      <Modified>2018-05-09T14:59:33.042</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-05-09T12:58:32.100</Modified>
+      <Modified>2018-05-09T14:59:33.160</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Cinema.xr.xml">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Cinema.xr.xml">
       <PackagePath>Cinema.xr.xml</PackagePath>
-      <Modified>2018-05-09T14:49:10.560</Modified>
+      <Modified>2018-05-09T15:52:42.351</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-09-28T16:28:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-09T14:49:12.817</Modified>
+      <Modified>2018-05-09T15:52:46.068</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\New folder\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Core\Cinema.exe">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Core\Cinema.exe">
       <PackagePath>Cinema.exe</PackagePath>
-      <Modified>2018-05-09T14:50:43.415</Modified>
+      <Modified>2018-05-09T15:52:47.514</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

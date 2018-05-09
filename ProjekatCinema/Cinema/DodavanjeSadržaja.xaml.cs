@@ -36,12 +36,12 @@ namespace Cinema
             try
             {
                 Film obj = new Film();
-                obj.naslov = tbNaziv.Text;
-                obj.redatelj = tbRed.Text;
-                obj.zanr = zanr.dajZanr();
-                obj.trailer = tbTrailer.Text;
+                obj.Naslov = tbNaziv.Text;
+                obj.Redatelj = tbRed.Text;
+                obj.Zanr = zanr.dajZanr();
+                obj.Trailer = tbTrailer.Text;
                 userTableObj.InsertAsync(obj);
-                MessageDialog msgDialog = new MessageDialog("Uspješna registracija");
+                MessageDialog msgDialog = new MessageDialog("Uspješno dodan film!");
                 msgDialog.ShowAsync();
             }
             catch (Exception ex)

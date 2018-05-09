@@ -21,7 +21,7 @@
         <TextBox x:Name="tbRed" HorizontalAlignment="Left" Margin="560,267,0,0" Text="" VerticalAlignment="Top" Width="194"/>
         <TextBox x:Name="tbNaziv" HorizontalAlignment="Left" Margin="560,201,0,0" Text="" VerticalAlignment="Top" Width="194"/>
         <Button x:Name="dug" Content="Ažuriraj podatke" HorizontalAlignment="Left" Margin="400,470,0,0" VerticalAlignment="Top" Width="150" Height="44" />
-        <Button x:Name="dugP" Content="Povratak" HorizontalAlignment="Left" Margin="600,470,0,0" VerticalAlignment="Top" Width="150" Height="44" />
+        <Button x:Name="dugP" Content="Povratak" HorizontalAlignment="Left" Margin="600,470,0,0" VerticalAlignment="Top" Width="150" Height="44" Click="dugP_Click" />
         <local:IDpretraga x:Name="IDP" HorizontalAlignment="Left" Margin="403,126,0,0" VerticalAlignment="Top"/>
         <Button x:Name="dP" Content="Pretraga" HorizontalAlignment="Left" Margin="668,126,0,0" VerticalAlignment="Top"/>
         <TextBlock x:Name="lZanr" HorizontalAlignment="Left" Margin="400,394,0,0" Text="Zanr:" FontSize="24" TextWrapping="Wrap" VerticalAlignment="Top"/>
