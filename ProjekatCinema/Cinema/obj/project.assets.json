@@ -25576,11 +25576,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samir\\source\\repos\\Cinema\\Cinema\\Cinema.csproj",
+      "projectUniqueName": "C:\\Users\\samir\\Desktop\\New folder (4)\\Grupa11-TimNoName\\ProjekatCinema\\Cinema\\Cinema.csproj",
       "projectName": "Cinema",
-      "projectPath": "C:\\Users\\samir\\source\\repos\\Cinema\\Cinema\\Cinema.csproj",
+      "projectPath": "C:\\Users\\samir\\Desktop\\New folder (4)\\Grupa11-TimNoName\\ProjekatCinema\\Cinema\\Cinema.csproj",
       "packagesPath": "C:\\Users\\samir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samir\\source\\repos\\Cinema\\Cinema\\obj\\",
+      "outputPath": "C:\\Users\\samir\\Desktop\\New folder (4)\\Grupa11-TimNoName\\ProjekatCinema\\Cinema\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

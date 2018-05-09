@@ -29,7 +29,7 @@ namespace Cinema
 
         private void registracija_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(AžuriranjeSadržaja));
+            this.Frame.Navigate(typeof(Prijava));
         }
 
         private void dPrijava_Click(object sender, RoutedEventArgs e)
@@ -39,12 +39,12 @@ namespace Cinema
 
         private void dRegistracija_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Registracija));
+            this.Frame.Navigate(typeof(Prijava));
         }
 
         private void dAzuriranje_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(AžuriranjeSadržaja));
+            this.Frame.Navigate(typeof(Prijava));
         }
 
         private void dDodavanje_Click(object sender, RoutedEventArgs e)

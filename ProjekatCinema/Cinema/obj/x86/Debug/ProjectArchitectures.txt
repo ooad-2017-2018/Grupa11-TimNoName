@@ -1,1 +1,1 @@
-C:\Users\samir\source\repos\Cinema\Cinema\Cinema.csproj;x86
+C:\Users\samir\Desktop\New folder (4)\Grupa11-TimNoName\ProjekatCinema\Cinema\Cinema.csproj;x86

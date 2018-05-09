@@ -7,53 +7,30 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
+
     <Grid>
 
         <Grid.Background>
             <ImageBrush ImageSource="Assets/poz.jpg" Stretch="Fill"/>
         </Grid.Background>
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*" x:Name="LDugmad"/>
-            <ColumnDefinition Width="4*" x:Name="Sredina"/>
-        </Grid.ColumnDefinitions>
 
-        <Grid Grid.Column="0" Grid.RowSpan="2">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="3*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="3*"/>
-            </Grid.RowDefinitions>
+        <TextBlock x:Name="lTrailer" HorizontalAlignment="Left" Margin="400,320,0,0" Text="Trailer(link):" FontSize="24" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1"/>
+        <TextBlock x:Name="lRed" HorizontalAlignment="Left" Margin="400,251,0,0" Text="Redatelj:" FontSize="24" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1"/>
+        <TextBlock x:Name="lNaziv" HorizontalAlignment="Left" Margin="400,184,0,0" Text="Naziv filma:" FontSize="24" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1" Height="38" Width="187"/>
+        <TextBox x:Name="tbTrailer" Grid.Column="1" HorizontalAlignment="Left" Margin="560,320,0,0" Text="" VerticalAlignment="Top" Width="194"/>
+        <TextBox x:Name="tbRed" HorizontalAlignment="Left" Margin="560,251,0,0" Text="" VerticalAlignment="Top" Grid.Column="1" Width="194"/>
+        <TextBox x:Name="tbNaziv" HorizontalAlignment="Left" Margin="560,179,0,0" Text="" VerticalAlignment="Top" Grid.Column="1" Width="194"/>
+        <Button x:Name="dug" Content="Dodaj film" HorizontalAlignment="Left" Margin="390,480,0,0" VerticalAlignment="Top" Width="170" Height="44" />
 
-            <Button x:Name="dProfil" Content="Moj profil" HorizontalAlignment="Right"  VerticalAlignment="Stretch" Width="150" Height="Auto" Background="#FFBF0D0D" Grid.Row="2" Margin="0.5" Foreground="White"/>
-            <Button x:Name="dDodavanje" Content="Dodavanje filmova" HorizontalAlignment="Right"  VerticalAlignment="Stretch" Width="150" Height="Auto" Background="#FF455FA2" Grid.Row="3" Margin="0.5" Foreground="White"/>
-            <Button x:Name="dAzuriranje" Content="Ažuriranje sadržaja" HorizontalAlignment="Right"  VerticalAlignment="Stretch" Width="150" Height="Auto" Background="#FFBF0D0D" Grid.Row="4" Margin="0.5" Foreground="White"/>
-            <Button x:Name="dBrisanje" Content="Brisanje korisnika" HorizontalAlignment="Right"  VerticalAlignment="Stretch" Width="150" Height="Auto" Background="#FFBF0D0D" Grid.Row="5" Margin="0.5" Foreground="White"/>
-            <Button x:Name="dPretraga" Content="Pretraga" HorizontalAlignment="Right"  VerticalAlignment="Stretch" Width="150" Height="Auto" Background="#FFBF0D0D" Grid.Row="6" Margin="0.5" Foreground="White"/>
-        </Grid>
-        <Border x:Name="okvir" BorderBrush="Black" Grid.Column="1"  HorizontalAlignment="Left" Height="520" Margin="20,114,0,0" VerticalAlignment="Top" Width="677" BorderThickness="1" CornerRadius="50" Grid.RowSpan="2"/>
-        <TextBlock x:Name="lTrailer" HorizontalAlignment="Left" Margin="111,400,0,0" Text="Trailer:" FontSize="22" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1"/>
-        <TextBlock x:Name="lRed" HorizontalAlignment="Left" Margin="111,251,0,0" Text="Redatelj:" FontSize="22" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1"/>
-        <TextBlock x:Name="lNaziv" HorizontalAlignment="Left" Margin="112,184,0,0" Text="Naziv filma:" FontSize="20" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1" Height="38" Width="187"/>
-        <TextBox x:Name="tbTrailer" Grid.Column="1" HorizontalAlignment="Left" Margin="318,400,0,0" Text="" VerticalAlignment="Top" Width="194"/>
-        <TextBox x:Name="tbRed" HorizontalAlignment="Left" Margin="318,251,0,0" Text="" VerticalAlignment="Top" Grid.Column="1" Width="194"/>
-        <TextBox x:Name="tbNaziv" HorizontalAlignment="Left" Margin="318,179,0,0" Text="" VerticalAlignment="Top" Grid.Column="1" Width="194"/>
-        <ComboBox x:Name="tbZanr" HorizontalAlignment="Left" Margin="318,330,0,0" Grid.Column="1" VerticalAlignment="Top" Width="194"/>
-        <TextBlock x:Name="lZanr" HorizontalAlignment="Left" Margin="111,330,0,0" Text="Žanr:" FontSize="22" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1"/>
-        <Button x:Name="dug" Content="Dodaj film"  Grid.Column="1" HorizontalAlignment="Left" Margin="320,500,0,0" VerticalAlignment="Top" Width="137" Height="44" />
+        <Button x:Name="dugP" Content="Povratak" HorizontalAlignment="Left" Margin="610,480,0,0" VerticalAlignment="Top" Width="170" Height="44" />
+        <local:zanrUC x:Name="zanr" HorizontalAlignment="Left" Margin="400,380,0,0" VerticalAlignment="Top"/>
 
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup x:Name="VisualStateGroup">
                 <VisualState x:Name="Wide">
                     <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="750" MinWindowHeight="600"/>
+                        <AdaptiveTrigger MinWindowWidth="800"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
 
@@ -61,24 +38,24 @@
                     </VisualState.Setters>
                 </VisualState>
 
-                <VisualState x:Name="Narrow">
+                <VisualState x:Name="Mini">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="0"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-                        <Setter Target="okvir.Height" Value="350"/>
-                        <Setter Target="okvir.Width" Value="350"/>
-                        <Setter Target="lNaziv.Margin" Value="50,90,0,0"/>
-                        <Setter Target="tbNaziv.Margin" Value="160,90,0,0"/>
-                        <Setter Target="lZanr.Margin" Value="50,150,0,0"/>
-                        <Setter Target="tbZanr.Margin" Value="160,150,0,0"/>
-                        <Setter Target="lRed.Margin" Value="50,210,0,0"/>
-                        <Setter Target="tbRed.Margin" Value="160,210,0,0"/>
-                        <Setter Target="lTrailer.Margin" Value="50,270,0,0"/>
-                        <Setter Target="tbTrailer.Margin" Value="160,270,0,0"/>
-                        <Setter Target="dug.Margin" Value="100,320,0,0"/>
-                        <Setter Target="okvir.Margin" Value="30,70,0,0"/>
-
+                        <Setter Target="lNaziv.Margin" Value="30,65,0,0"/>
+                        <Setter Target="lRed.Margin" Value="30,115,0,0"/>
+                        <Setter Target="lTrailer.Margin" Value="30,165,0,0"/>
+                        <Setter Target="zanr.Margin" Value="30,200,0,0"/>
+                        <Setter Target="tbNaziv.Margin" Value="190,65,0,0"/>
+                        <Setter Target="tbRed.Margin" Value="190,115,0,0"/>
+                        <Setter Target="tbTrailer.Margin" Value="190,165,0,0"/>
+                        <Setter Target="dug.Margin" Value="150,250,0,0"/>
+                        <Setter Target="dug.Width" Value="120"/>
+                        <Setter Target="dug.Height" Value="35"/>
+                        <Setter Target="dugP.Margin" Value="320,250,0,0"/>
+                        <Setter Target="dugP.Width" Value="120"/>
+                        <Setter Target="dugP.Height" Value="35"/>
 
                     </VisualState.Setters>
                 </VisualState>
@@ -86,7 +63,6 @@
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
 
-
-
     </Grid>
+
 </Page>

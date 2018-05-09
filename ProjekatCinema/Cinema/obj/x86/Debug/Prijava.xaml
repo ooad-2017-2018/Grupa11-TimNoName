@@ -30,7 +30,7 @@
                         <AdaptiveTrigger MinWindowHeight="680"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-                       
+
 
                     </VisualState.Setters>
                 </VisualState>
@@ -59,18 +59,24 @@
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
                         <Setter Target="rec.Margin" Value="50,30,0,0"/>
-                        <Setter Target="rec.Height" Value="440"/>
-                        <Setter Target="rec.Width" Value="460"/>
+                        <Setter Target="rec.Height" Value="260"/>
+                        <Setter Target="rec.Width" Value="420"/>
                         <Setter Target="l1.Margin" Value="180,40,0,0"/>
-                        <Setter Target="l2.Margin" Value="90,110,0,0"/>
-                        <Setter Target="l3.Margin" Value="90,200,0,0"/>
-                        <Setter Target="ll.Margin" Value="100,330,0,0"/>
-                        <Setter Target="un.Margin" Value="200,100,0,0"/>
-                        <Setter Target="un.Width" Value="260"/>
-                        <Setter Target="pw.Margin" Value="200,190,0,0"/>
-                        <Setter Target="pw.Width" Value="260"/>
-                        <Setter Target="dPrijava.Margin" Value="100,280,0,0"/>
-                        <Setter Target="dGost.Margin" Value="100,380,0,0"/>
+                        <Setter Target="l2.Margin" Value="90,90,0,0"/>
+                        <Setter Target="l3.Margin" Value="90,140,0,0"/>
+                        <Setter Target="ll.Margin" Value="100,240,0,0"/>
+                        <Setter Target="un.Margin" Value="200,90,0,0"/>
+                        <Setter Target="un.Width" Value="220"/>
+                        <Setter Target="un.Height" Value="15"/>
+                        <Setter Target="pw.Margin" Value="200,140,0,0"/>
+                        <Setter Target="pw.Width" Value="220"/>
+                        <Setter Target="pw.Height" Value="15"/>
+                        <Setter Target="dPrijava.Margin" Value="100,195,0,0"/>
+                        <Setter Target="dGost.Margin" Value="280,195,0,0"/>
+                        <Setter Target="dPrijava.Height" Value="35"/>
+                        <Setter Target="dGost.Height" Value="35"/>
+                        <Setter Target="dPrijava.Width" Value="150"/>
+                        <Setter Target="dGost.Width" Value="150"/>
 
                     </VisualState.Setters>
                 </VisualState>

@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>b73e0250-9f03-4959-aa3d-e2fb3e8c792e</PackageIdentityName>
     <PackageIdentityPublisher>CN=samir</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\samir\source\repos\Cinema\Cinema\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\samir\source\repos\Cinema\Cinema\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\samir\source\repos\Cinema\Cinema\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\samir\source\repos\Cinema\Cinema\bin\x86\Debug\Cinema.exe">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Cinema.exe">
       <PackagePath>entrypoint\Cinema.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
@@ -370,65 +370,65 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\source\repos\Cinema\Cinema\Assets\logo.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\logo.png">
       <PackagePath>Assets\logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\source\repos\Cinema\Cinema\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\source\repos\Cinema\Cinema\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\source\repos\Cinema\Cinema\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\source\repos\Cinema\Cinema\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\source\repos\Cinema\Cinema\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\source\repos\Cinema\Cinema\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\source\repos\Cinema\Cinema\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\source\repos\Cinema\Cinema\Assets\minipoz.jpg">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\minipoz.jpg">
       <PackagePath>Assets\minipoz.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\source\repos\Cinema\Cinema\Assets\poz.jpg">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\poz.jpg">
       <PackagePath>Assets\poz.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\source\repos\Cinema\Cinema\Assets\pozadina.jpg">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\pozadina.jpg">
       <PackagePath>Assets\pozadina.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\source\repos\Cinema\Cinema\Assets\pozzz.jpg">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\pozzz.jpg">
       <PackagePath>Assets\pozzz.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\source\repos\Cinema\Cinema\Assets\pozzzz.jpg">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\pozzzz.jpg">
       <PackagePath>Assets\pozzzz.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\source\repos\Cinema\Cinema\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\source\repos\Cinema\Cinema\bin\x86\Debug\Cinema.xr.xml">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Cinema.xr.xml">
       <PackagePath>Cinema.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\source\repos\Cinema\Cinema\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\source\repos\Cinema\Cinema\bin\x86\Debug\Core\Cinema.exe">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %284%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Core\Cinema.exe">
       <PackagePath>Cinema.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
