@@ -1,0 +1,16 @@
+﻿<UserControl
+    x:Class="Cinema.DobrodoslicaUC"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Cinema"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="50"
+    d:DesignWidth="450">
+
+    <Grid Margin="0,0,0,-47">
+        <TextBlock HorizontalAlignment="Left" Margin="0,-11,0,0" FontSize="48" Text="Dobro došli!" TextWrapping="Wrap" VerticalAlignment="Top" Width="262"/>
+        <TextBlock x:Name ="Dobrodoslica1" HorizontalAlignment="Left" Margin="160,10,0,0" VerticalAlignment="Top" Width="200"/>
+    </Grid>
+</UserControl>
