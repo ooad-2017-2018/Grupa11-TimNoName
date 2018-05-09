@@ -92,6 +92,9 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AdminForma.xaml.cs">
+      <DependentUpon>AdminForma.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -101,11 +104,17 @@
     <Compile Include="BrisanjeSadrzaja.xaml.cs">
       <DependentUpon>BrisanjeSadrzaja.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DobrodoslicaUC.xaml.cs">
+      <DependentUpon>DobrodoslicaUC.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DodavanjeSadržaja.xaml.cs">
       <DependentUpon>DodavanjeSadržaja.xaml</DependentUpon>
     </Compile>
     <Compile Include="IDpretraga.xaml.cs">
       <DependentUpon>IDpretraga.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="KorisnikForma.xaml.cs">
+      <DependentUpon>KorisnikForma.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\Administrator.cs" />
     <Compile Include="Model\Film.cs" />
@@ -155,6 +164,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="AdminForma.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AzuriranjeSadrzaja.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -163,11 +176,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="DobrodoslicaUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="DodavanjeSadržaja.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="IDpretraga.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="KorisnikForma.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -195,6 +216,10 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.0.8</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\NewFolder1\" />
+    <Folder Include="View\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

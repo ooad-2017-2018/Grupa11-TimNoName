@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>b73e0250-9f03-4959-aa3d-e2fb3e8c792e</PackageIdentityName>
     <PackageIdentityPublisher>CN=samir</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>9E47127AFF1556FC78DA6452EEA34D9AE6D786A33E8B1B8E5E0535CD45F544EA</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>b73e0250-9f03-4959-aa3d-e2fb3e8c792e_1.0.0.0_x86__zs0qc8kc24g2p</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>b73e0250-9f03-4959-aa3d-e2fb3e8c792e_zs0qc8kc24g2p!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-09T15:52:47.520</Modified>
+      <Modified>2018-05-09T21:10:34.445</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Cinema.exe">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Cinema.exe">
       <PackagePath>entrypoint\Cinema.exe</PackagePath>
-      <Modified>2018-05-09T15:52:43.098</Modified>
+      <Modified>2018-05-09T21:10:29.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samir\.nuget\packages\microsoft.azure.mobile.client\4.0.2\lib\uap10.0\Microsoft.Azure.Mobile.Client.dll">
       <PackagePath>Microsoft.Azure.Mobile.Client.dll</PackagePath>
@@ -503,84 +503,84 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T21:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\logo.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\logo.png">
       <PackagePath>Assets\logo.png</PackagePath>
-      <Modified>2018-05-09T14:59:33.029</Modified>
+      <Modified>2018-05-09T19:38:05.076</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-05-09T14:59:33.017</Modified>
+      <Modified>2018-05-09T19:38:05.048</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-09T14:59:33.019</Modified>
+      <Modified>2018-05-09T19:38:05.049</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-09T14:59:33.021</Modified>
+      <Modified>2018-05-09T19:38:05.053</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-09T14:59:33.023</Modified>
+      <Modified>2018-05-09T19:38:05.055</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-09T14:59:33.024</Modified>
+      <Modified>2018-05-09T19:38:05.065</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-09T14:59:33.026</Modified>
+      <Modified>2018-05-09T19:38:05.069</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-09T14:59:33.028</Modified>
+      <Modified>2018-05-09T19:38:05.070</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\minipoz.jpg">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\minipoz.jpg">
       <PackagePath>Assets\minipoz.jpg</PackagePath>
-      <Modified>2018-05-09T14:59:33.032</Modified>
+      <Modified>2018-05-09T19:38:05.079</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\poz.jpg">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\poz.jpg">
       <PackagePath>Assets\poz.jpg</PackagePath>
-      <Modified>2018-05-09T14:59:33.035</Modified>
+      <Modified>2018-05-09T19:38:05.082</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\pozadina.jpg">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\pozadina.jpg">
       <PackagePath>Assets\pozadina.jpg</PackagePath>
-      <Modified>2018-05-09T14:59:33.037</Modified>
+      <Modified>2018-05-09T19:38:05.085</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\pozzz.jpg">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\pozzz.jpg">
       <PackagePath>Assets\pozzz.jpg</PackagePath>
-      <Modified>2018-05-09T14:59:33.040</Modified>
+      <Modified>2018-05-09T19:38:05.088</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\pozzzz.jpg">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Assets\pozzzz.jpg">
       <PackagePath>Assets\pozzzz.jpg</PackagePath>
-      <Modified>2018-05-09T14:59:33.042</Modified>
+      <Modified>2018-05-09T19:38:05.089</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-05-09T14:59:33.160</Modified>
+      <Modified>2018-05-09T19:38:05.169</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Cinema.xr.xml">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Cinema.xr.xml">
       <PackagePath>Cinema.xr.xml</PackagePath>
-      <Modified>2018-05-09T15:52:42.351</Modified>
+      <Modified>2018-05-09T20:34:54.240</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-09-28T16:28:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-09T15:52:46.068</Modified>
+      <Modified>2018-05-09T21:10:33.274</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %285%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Core\Cinema.exe">
+    <AppxPackagedFile Include="C:\Users\samir\Desktop\New folder %286%29\Grupa11-TimNoName\ProjekatCinema\Cinema\bin\x86\Debug\Core\Cinema.exe">
       <PackagePath>Cinema.exe</PackagePath>
-      <Modified>2018-05-09T15:52:47.514</Modified>
+      <Modified>2018-05-09T21:10:34.437</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

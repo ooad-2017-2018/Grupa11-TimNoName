@@ -46,7 +46,7 @@ namespace Cinema
             }
             catch (Exception ex)
             {
-                MessageDialog msgDialogError = new MessageDialog("Error : " + ex.ToString());
+                MessageDialog msgDialogError = new MessageDialog("Error: " + ex.ToString());
                 msgDialogError.ShowAsync();
             }
         }
