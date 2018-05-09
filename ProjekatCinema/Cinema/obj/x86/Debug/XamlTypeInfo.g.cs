@@ -132,21 +132,27 @@ namespace Cinema.Cinema_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[6];
-            _typeNameTable[0] = "Cinema.zanrUC";
+            _typeNameTable = new string[9];
+            _typeNameTable[0] = "Cinema.IDpretraga";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[2] = "Cinema.DodavanjeSadržaja";
+            _typeNameTable[2] = "Cinema.AzuriranjeSadrzaja";
             _typeNameTable[3] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[4] = "Cinema.Prijava";
-            _typeNameTable[5] = "Cinema.MainPage";
+            _typeNameTable[4] = "Cinema.zanrUC";
+            _typeNameTable[5] = "Cinema.DodavanjeSadržaja";
+            _typeNameTable[6] = "Cinema.Prijava";
+            _typeNameTable[7] = "Cinema.MainPage";
+            _typeNameTable[8] = "Cinema.Registracija";
 
-            _typeTable = new global::System.Type[6];
-            _typeTable[0] = typeof(global::Cinema.zanrUC);
+            _typeTable = new global::System.Type[9];
+            _typeTable[0] = typeof(global::Cinema.IDpretraga);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[2] = typeof(global::Cinema.DodavanjeSadržaja);
+            _typeTable[2] = typeof(global::Cinema.AzuriranjeSadrzaja);
             _typeTable[3] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[4] = typeof(global::Cinema.Prijava);
-            _typeTable[5] = typeof(global::Cinema.MainPage);
+            _typeTable[4] = typeof(global::Cinema.zanrUC);
+            _typeTable[5] = typeof(global::Cinema.DodavanjeSadržaja);
+            _typeTable[6] = typeof(global::Cinema.Prijava);
+            _typeTable[7] = typeof(global::Cinema.MainPage);
+            _typeTable[8] = typeof(global::Cinema.Registracija);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -181,10 +187,13 @@ namespace Cinema.Cinema_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_zanrUC() { return new global::Cinema.zanrUC(); }
-        private object Activate_2_DodavanjeSadržaja() { return new global::Cinema.DodavanjeSadržaja(); }
-        private object Activate_4_Prijava() { return new global::Cinema.Prijava(); }
-        private object Activate_5_MainPage() { return new global::Cinema.MainPage(); }
+        private object Activate_0_IDpretraga() { return new global::Cinema.IDpretraga(); }
+        private object Activate_2_AzuriranjeSadrzaja() { return new global::Cinema.AzuriranjeSadrzaja(); }
+        private object Activate_4_zanrUC() { return new global::Cinema.zanrUC(); }
+        private object Activate_5_DodavanjeSadržaja() { return new global::Cinema.DodavanjeSadržaja(); }
+        private object Activate_6_Prijava() { return new global::Cinema.Prijava(); }
+        private object Activate_7_MainPage() { return new global::Cinema.MainPage(); }
+        private object Activate_8_Registracija() { return new global::Cinema.Registracija(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -196,9 +205,9 @@ namespace Cinema.Cinema_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  Cinema.zanrUC
+            case 0:   //  Cinema.IDpretraga
                 userType = new global::Cinema.Cinema_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_0_zanrUC;
+                userType.Activator = Activate_0_IDpretraga;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -207,9 +216,9 @@ namespace Cinema.Cinema_XamlTypeInfo
                 xamlType = new global::Cinema.Cinema_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 2:   //  Cinema.DodavanjeSadržaja
+            case 2:   //  Cinema.AzuriranjeSadrzaja
                 userType = new global::Cinema.Cinema_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_2_DodavanjeSadržaja;
+                userType.Activator = Activate_2_AzuriranjeSadrzaja;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -218,16 +227,37 @@ namespace Cinema.Cinema_XamlTypeInfo
                 xamlType = new global::Cinema.Cinema_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 4:   //  Cinema.Prijava
-                userType = new global::Cinema.Cinema_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_Prijava;
+            case 4:   //  Cinema.zanrUC
+                userType = new global::Cinema.Cinema_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_4_zanrUC;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  Cinema.MainPage
+            case 5:   //  Cinema.DodavanjeSadržaja
                 userType = new global::Cinema.Cinema_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_MainPage;
+                userType.Activator = Activate_5_DodavanjeSadržaja;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  Cinema.Prijava
+                userType = new global::Cinema.Cinema_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_6_Prijava;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 7:   //  Cinema.MainPage
+                userType = new global::Cinema.Cinema_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_7_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 8:   //  Cinema.Registracija
+                userType = new global::Cinema.Cinema_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_8_Registracija;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

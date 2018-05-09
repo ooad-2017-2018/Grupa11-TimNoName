@@ -12,6 +12,9 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Microsoft.WindowsAzure.MobileServices;
+using Windows.UI.Popups;
+using Cinema.Model;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -39,17 +42,18 @@ namespace Cinema
 
         private void dRegistracija_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Prijava));
+            this.Frame.Navigate(typeof(Registracija));
         }
 
         private void dAzuriranje_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Prijava));
+            this.Frame.Navigate(typeof(AzuriranjeSadrzaja));
         }
 
         private void dDodavanje_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(DodavanjeSadržaja));
         }
+
     }
 }

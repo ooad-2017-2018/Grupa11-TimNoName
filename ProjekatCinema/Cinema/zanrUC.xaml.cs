@@ -12,6 +12,9 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Microsoft.WindowsAzure.MobileServices;
+using Windows.UI.Popups;
+using Cinema.Model;
 
 // The User Control item template is documented at https://go.microsoft.com/fwlink/?LinkId=234236
 
@@ -22,6 +25,9 @@ namespace Cinema
         public zanrUC()
         {
             this.InitializeComponent();
+        }
+        public string dajZanr() {
+            return zanr1.Text;
         }
     }
 }

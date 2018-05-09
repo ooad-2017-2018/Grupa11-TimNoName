@@ -13,50 +13,47 @@
             <ImageBrush ImageSource="Assets/poz.jpg" Stretch="Fill"/>
         </Grid.Background>
 
-        <TextBlock x:ConnectionId='1' x:Name="lDatum" HorizontalAlignment="Left" Margin="210,324,0,0" FontSize="24" Text="Datum rođenja: " TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock x:ConnectionId='2' x:Name="lKartica" HorizontalAlignment="Left" Margin="210,455,0,0" FontSize="24" Text="Broj kreditne kartice:" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock x:ConnectionId='3' x:Name="lIme" HorizontalAlignment="Left" FontSize="24" Margin="210,150,0,0" Text="Ime:" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="92"/>
-        <TextBlock x:ConnectionId='4' x:Name="lPrezime" HorizontalAlignment="Left" Margin="210,240,0,0" FontSize="24" Text="Prezime" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock x:ConnectionId='5' x:Name="lJMBG" HorizontalAlignment="Left" Margin="210,390,0,0" FontSize="24" Text="JMBG:" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox x:ConnectionId='6' x:Name="tbDatum" HorizontalAlignment="Left" Margin="465,315,0,0"  VerticalAlignment="Top" Width="269" Height="41"/>
-        <TextBox x:ConnectionId='7' x:Name="tbJMBG" HorizontalAlignment="Left" Margin="465,384,0,0"  VerticalAlignment="Top" Width="269" Height="41"/>
-        <TextBox x:ConnectionId='8' x:Name="tbKartica" HorizontalAlignment="Left" Margin="465,455,0,0"  VerticalAlignment="Top" Width="269" Height="41"/>
-        <TextBox x:ConnectionId='9' x:Name="tbIme" HorizontalAlignment="Left" Margin="465,150,0,0"  VerticalAlignment="Top"  Width="269" Height="41"/>
-        <TextBox x:ConnectionId='10' x:Name="tbPrezime" HorizontalAlignment="Left" Margin="465,234,0,0"  VerticalAlignment="Top" Width="269" Height="41"/>
-        <Image x:ConnectionId='11' x:Name="slika" HorizontalAlignment="Left" Source="Assets/StoreLogo.png" Height="234" Margin="791,150,0,0" VerticalAlignment="Top" Width="192"/>
-        <Button x:ConnectionId='12' x:Name="dUcitaj" Content="Učitaj sliku" HorizontalAlignment="Left" Margin="842,382,0,0" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='13' x:Name="dReg" Content="Registracija" HorizontalAlignment="Left" Margin="429,562,0,0" VerticalAlignment="Top" Height="46" Width="191"/>
+        <ScrollViewer>
+            <StackPanel>
+                <TextBlock x:ConnectionId='1' x:Name="lIme" HorizontalAlignment="Left" FontSize="24" Margin="150,130,0,0" Text="Ime:" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="92"/>
+                <TextBox x:ConnectionId='2' x:Name="tbIme" HorizontalAlignment="Left" Margin="400,-40,0,0"  VerticalAlignment="Top"  Width="269" Height="41"/>
+                <TextBlock x:ConnectionId='3' x:Name="lPrezime" HorizontalAlignment="Left" Margin="150,30,0,0" FontSize="24" Text="Prezime" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                <TextBox x:ConnectionId='4' x:Name="tbPrezime" HorizontalAlignment="Left" Margin="400,-40,0,0"  VerticalAlignment="Top" Width="269" Height="41"/>
+                <TextBlock x:ConnectionId='5' x:Name="lDatum" HorizontalAlignment="Left" Margin="150,30,0,0" FontSize="24" Text="Datum rođenja: " TextWrapping="Wrap" VerticalAlignment="Top"/>
+                <TextBox x:ConnectionId='6' x:Name="tbDatum" HorizontalAlignment="Left" Margin="400,-40,0,0"  VerticalAlignment="Top" Width="269" Height="41"/>
+                <TextBlock x:ConnectionId='7' x:Name="lJMBG" HorizontalAlignment="Left" Margin="150,30,0,0" FontSize="24" Text="e-mail:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                <TextBox x:ConnectionId='8' x:Name="tbJMBG" HorizontalAlignment="Left" Margin="400,-40,0,0"  VerticalAlignment="Top" Width="269" Height="41"/>
+                <TextBlock x:ConnectionId='9' x:Name="lKartica" HorizontalAlignment="Left" Margin="150,30,0,0" FontSize="24" Text="Broj kreditne kartice:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                <TextBox x:ConnectionId='10' x:Name="tbKartica" HorizontalAlignment="Left" Margin="400,-40,0,0"  VerticalAlignment="Top" Width="269" Height="41"/>
+                <TextBlock x:ConnectionId='11' x:Name="un" HorizontalAlignment="Left" Margin="150,30,0,0" Text="Username:" TextWrapping="Wrap" FontSize="24" VerticalAlignment="Top"/>
+                <TextBox x:ConnectionId='12' x:Name="tbUn" HorizontalAlignment="Left" Margin="400,-40,0,0" VerticalAlignment="Top" Width="269" Height="41"/>
+                <TextBlock x:ConnectionId='13' x:Name="pw" HorizontalAlignment="Left" Margin="150,30,0,0" Text="Password:" FontSize="24" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                <PasswordBox x:ConnectionId='14' x:Name="tbPw" HorizontalAlignment="Left" Margin="400,-40,0,0" VerticalAlignment="Top" Width="269" Height="41"/>
+                <Button x:ConnectionId='15' x:Name="dReg" Content="Registracija" Margin="350,30,0,74" Height="50" Width="191" HorizontalAlignment="Left"/>
+
+
+            </StackPanel>
+        </ScrollViewer>
 
         <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup x:ConnectionId='14' x:Name="VisualStateGroup">
-                <VisualState x:ConnectionId='15' x:Name="Wide">
+            <VisualStateGroup x:ConnectionId='16' x:Name="VisualStateGroup">
+                <VisualState x:ConnectionId='17' x:Name="Wide">
                     <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="750" MinWindowHeight="600"/>
+                        <AdaptiveTrigger MinWindowWidth="600"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
+                        <Setter Target="lNaziv.Margin" Value="70,130,0,0"/>
+                        <Setter Target="tbNaziv.Margin" Value="300,130,0,0"/>
 
 
                     </VisualState.Setters>
                 </VisualState>
 
-                <VisualState x:ConnectionId='16' x:Name="Narrow">
+                <VisualState x:ConnectionId='18' x:Name="Mini">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="0"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-                        <Setter Target="lIme.Margin" Value="50,100,0,0"/>
-                        <Setter Target="lPrezime.Margin" Value="50,170,0,0"/>
-                        <Setter Target="lJMBG.Margin" Value="50,230,0,0"/>
-                        <Setter Target="lKartica.Margin" Value="50,300,0,0"/>
-                        <Setter Target="lDatum.Margin" Value="50,370,0,0"/>
-                        <Setter Target="tbIme.Margin" Value="285,95,0,0"/>
-                        <Setter Target="tbPrezime.Margin" Value="285,160,0,0"/>
-                        <Setter Target="tbJMBG.Margin" Value="285,225,0,0"/>
-                        <Setter Target="tbDatum.Margin" Value="285,300,0,0"/>
-                        <Setter Target="tbKartica.Margin" Value="285,370,0,0"/>
-                        <Setter Target="slika.Margin" Value="600,110,0,0"/>
-                        <Setter Target="dUcitaj.Margin" Value="650,300,0,0"/>
-                        <Setter Target="dReg.Margin" Value="300,440,0,0"/>
 
                     </VisualState.Setters>
                 </VisualState>
@@ -65,5 +62,8 @@
         </VisualStateManager.VisualStateGroups>
 
     </Grid>
+
+
+
 </Page>
 

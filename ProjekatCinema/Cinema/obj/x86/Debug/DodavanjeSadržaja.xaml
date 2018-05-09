@@ -21,9 +21,9 @@
         <TextBox x:ConnectionId='4' x:Name="tbTrailer" Grid.Column="1" HorizontalAlignment="Left" Margin="560,320,0,0" Text="" VerticalAlignment="Top" Width="194"/>
         <TextBox x:ConnectionId='5' x:Name="tbRed" HorizontalAlignment="Left" Margin="560,251,0,0" Text="" VerticalAlignment="Top" Grid.Column="1" Width="194"/>
         <TextBox x:ConnectionId='6' x:Name="tbNaziv" HorizontalAlignment="Left" Margin="560,179,0,0" Text="" VerticalAlignment="Top" Grid.Column="1" Width="194"/>
-        <Button x:ConnectionId='7' x:Name="dug" Content="Dodaj film" HorizontalAlignment="Left" Margin="390,480,0,0" VerticalAlignment="Top" Width="170" Height="44" />
+        <Button x:ConnectionId='7' x:Name="dug" Content="Dodaj film" HorizontalAlignment="Left" Margin="390,480,0,0" VerticalAlignment="Top" Width="170" Height="44"                   />
 
-        <Button x:ConnectionId='8' x:Name="dugP" Content="Povratak" HorizontalAlignment="Left" Margin="610,480,0,0" VerticalAlignment="Top" Width="170" Height="44" />
+        <Button x:ConnectionId='8' x:Name="dugP" Content="Povratak" HorizontalAlignment="Left" Margin="610,480,0,0" VerticalAlignment="Top" Width="170" Height="44"                    />
         <local:zanrUC x:ConnectionId='9' x:Name="zanr" HorizontalAlignment="Left" Margin="400,380,0,0" VerticalAlignment="Top"/>
 
         <VisualStateManager.VisualStateGroups>

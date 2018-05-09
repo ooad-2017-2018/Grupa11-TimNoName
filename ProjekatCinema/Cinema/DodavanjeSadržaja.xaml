@@ -21,9 +21,9 @@
         <TextBox x:Name="tbTrailer" Grid.Column="1" HorizontalAlignment="Left" Margin="560,320,0,0" Text="" VerticalAlignment="Top" Width="194"/>
         <TextBox x:Name="tbRed" HorizontalAlignment="Left" Margin="560,251,0,0" Text="" VerticalAlignment="Top" Grid.Column="1" Width="194"/>
         <TextBox x:Name="tbNaziv" HorizontalAlignment="Left" Margin="560,179,0,0" Text="" VerticalAlignment="Top" Grid.Column="1" Width="194"/>
-        <Button x:Name="dug" Content="Dodaj film" HorizontalAlignment="Left" Margin="390,480,0,0" VerticalAlignment="Top" Width="170" Height="44" />
+        <Button x:Name="dug" Content="Dodaj film" HorizontalAlignment="Left" Margin="390,480,0,0" VerticalAlignment="Top" Width="170" Height="44" Click="dug_Click" />
 
-        <Button x:Name="dugP" Content="Povratak" HorizontalAlignment="Left" Margin="610,480,0,0" VerticalAlignment="Top" Width="170" Height="44" />
+        <Button x:Name="dugP" Content="Povratak" HorizontalAlignment="Left" Margin="610,480,0,0" VerticalAlignment="Top" Width="170" Height="44" Click="dugP_Click" />
         <local:zanrUC x:Name="zanr" HorizontalAlignment="Left" Margin="400,380,0,0" VerticalAlignment="Top"/>
 
         <VisualStateManager.VisualStateGroups>
