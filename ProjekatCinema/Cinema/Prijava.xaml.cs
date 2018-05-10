@@ -37,15 +37,15 @@ namespace Cinema
             try
 
             {
-                string username = un.Text; string password = pw.Text;
-                if (un.Text.Length == 0 || pw.Text.Length == 0)
+                string username = un.Text; string password = pw.Password.ToString();
+                if (un.Text.Length == 0 || pw.Password.ToString().Length == 0)
                     await(new MessageDialog("Polja moraju biti popunjena")).ShowAsync();
-                else if (un.Text.Length != 0 && pw.Text.Length != 0)
+                else if (un.Text.Length != 0 && pw.Password.ToString().Length != 0)
                 {
 
                     IMobileServiceTable<RegistrovaniKorisnik> regKorisnik = App.MobileService.GetTable<RegistrovaniKorisnik>();
 
-                    if (username == "nerminamamela" && password == "cao") this.Frame.Navigate(typeof(MainPage));
+                    if (username == "nerminamamela" && password == "cao") this.Frame.Navigate(typeof(AdminForma));
                     else
                     {
 

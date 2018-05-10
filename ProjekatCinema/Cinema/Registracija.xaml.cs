@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Navigation;
 using Microsoft.WindowsAzure.MobileServices;
 using Windows.UI.Popups;
 using Cinema.Model;
+using System.Globalization;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -43,11 +44,13 @@ namespace Cinema
                 obj.Username = tbUn.Text;
                 obj.EMail = tbJMBG.Text;
                 obj.BrojKartice = tbKartica.Text;
-                obj.DatumRodjenja = Convert.ToDateTime(tbDatum.Text);
+                DateTime datumcic;
+               DateTime.TryParseExact(tbDatum.Text,"dd.MM.yyyy", CultureInfo.InvariantCulture,DateTimeStyles.None, out datumcic);
+                obj.DatumRodjenja = datumcic;
                 userTableObj.InsertAsync(obj);
                 MessageDialog msgDialog = new MessageDialog("Uspješna registracija!");
                 msgDialog.ShowAsync();
-                this.Frame.Navigate(typeof(MainPage));
+                this.Frame.Navigate(typeof(KorisnikForma));
             }
             catch (Exception ex)
             {

@@ -32,7 +32,7 @@ namespace Cinema
 
         private void dugP_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(MainPage));
+            this.Frame.Navigate(typeof(AdminForma));
         }
 
         IMobileServiceTable<Film> film = App.MobileService.GetTable<Film>();

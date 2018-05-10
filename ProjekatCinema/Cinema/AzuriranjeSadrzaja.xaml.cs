@@ -32,7 +32,7 @@ namespace Cinema
 
         private void dugP_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(MainPage));
+            this.Frame.Navigate(typeof(AdminForma));
         }
         IMobileServiceTable<Film> film = App.MobileService.GetTable<Film>();
      
@@ -49,6 +49,13 @@ namespace Cinema
                 var nadjenFilm = await items.ToListAsync();
                 if (nadjenFilm.Count != 1) throw new Exception("Film sa unesenim ID ne postoji!");
                 var i = nadjenFilm[0];
+
+                tbNaziv.Text = nadjenFilm.ElementAt(0).Naslov;
+                tbRed.Text = nadjenFilm.ElementAt(0).Redatelj;
+                tbTrailer.Text = nadjenFilm.ElementAt(0).Trailer;
+                tbZanr.Text = nadjenFilm.ElementAt(0).Zanr;
+
+
                 await film.DeleteAsync(i);
                 await (new Windows.UI.Popups.MessageDialog("Pronađen film!")).ShowAsync();
 

@@ -12,10 +12,10 @@
         <Grid.Background>
             <ImageBrush ImageSource="Assets/poz.jpg" Stretch="Fill"/>
         </Grid.Background>
-        <local:DobrodoslicaUC HorizontalAlignment="Left" Margin="150,190,0,0" VerticalAlignment="Top"/>
-        <Button Content="Brisanje Sadržaja" HorizontalAlignment="Left" Margin="123,471,0,0" VerticalAlignment="Top" Height="70" Width="439" FontSize="48" Click="Button_Click_1"/>
-        <Button Content="Dodavanje Sadržaja" HorizontalAlignment="Left" Margin="123,615,0,0" VerticalAlignment="Top" Height="70" Width="439" FontSize="48" Click="Button_Click_2"/>
-        <Button Content="Ažuriranje Sadržaja" HorizontalAlignment="Left" Margin="123,329,0,0" VerticalAlignment="Top" Height="70" Width="439" FontSize="48" Click="Button_Click"/>
+        <local:DobrodoslicaUC HorizontalAlignment="Left" Margin="150,150,0,0" VerticalAlignment="Top"/>
+        <Button Content="Brisanje Sadržaja" HorizontalAlignment="Left" Margin="123,400,0,0" VerticalAlignment="Top" Height="70" Width="439" FontSize="48" Click="Button_Click_1"/>
+        <Button Content="Dodavanje Sadržaja" HorizontalAlignment="Left" Margin="123,530,0,0" VerticalAlignment="Top" Height="70" Width="439" FontSize="48" Click="Button_Click_2"/>
+        <Button Content="Ažuriranje Sadržaja" HorizontalAlignment="Left" Margin="123,280,0,0" VerticalAlignment="Top" Height="70" Width="439" FontSize="48" Click="Button_Click"/>
         <Button Content="Odjava" HorizontalAlignment="Left" Margin="980,200,0,0" VerticalAlignment="Top" Height="70" Width="250" FontSize="48" Click="Button_Click_3"/>
 
 
