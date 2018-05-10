@@ -56,8 +56,8 @@ namespace Cinema
                 tbZanr.Text = nadjenFilm.ElementAt(0).Zanr;
 
 
-                await film.DeleteAsync(i);
-                await (new Windows.UI.Popups.MessageDialog("Pronađen film!")).ShowAsync();
+                //await film.DeleteAsync(i);
+               // await (new Windows.UI.Popups.MessageDialog("Pronađen film!")).ShowAsync();
 
             }
             catch (Exception ex)
@@ -68,10 +68,22 @@ namespace Cinema
             
         }
 
-        private void dug_Click(object sender, RoutedEventArgs e)
+        private async void dug_Click(object sender, RoutedEventArgs e)
         {
             try
             {
+
+
+                var items = from x in film where x.IdFilma == IDP.dajID() select x;
+
+
+                var nadjenFilm = await items.ToListAsync();
+                if (nadjenFilm.Count != 1) throw new Exception("Film sa unesenim ID ne postoji!");
+                var i = nadjenFilm[0];
+
+                await film.DeleteAsync(i);
+
+
                 Film obj = new Film();
                 obj.IdFilma = IDP.dajID();
                 obj.Naslov = tbNaziv.Text;
@@ -79,6 +91,13 @@ namespace Cinema
                 obj.Zanr = tbZanr.Text;
                 obj.Trailer = tbTrailer.Text;
                 film.InsertAsync(obj);
+
+                tbNaziv.Text = "";
+                tbRed.Text = "";
+                tbTrailer.Text = "";
+                tbZanr.Text = "";
+                IDP.isprazniPolje();
+
                 MessageDialog msgDialog = new MessageDialog("Uspješno ažuriran film!");
                 msgDialog.ShowAsync();
             }

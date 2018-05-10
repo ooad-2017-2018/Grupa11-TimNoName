@@ -74,12 +74,17 @@ namespace Cinema
                 var items = from x in film where x.IdFilma == IDP.dajID() select x;
 
                 
-
+        
                 var nadjenFilm = await items.ToListAsync();
                 
                 if (nadjenFilm.Count != 1) throw new Exception("Film sa unesenim ID ne postoji!");
                 var i = nadjenFilm[0];
                 await film.DeleteAsync(i);
+                tbNaziv.Text = "";
+                tbRed.Text = "";
+                tbTrailer.Text = "";
+                tbZanr.Text = "";
+                IDP.isprazniPolje();
                 await (new Windows.UI.Popups.MessageDialog("Film obrisan!")).ShowAsync();
 
             }

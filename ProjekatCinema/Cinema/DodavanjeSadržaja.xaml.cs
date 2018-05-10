@@ -35,8 +35,11 @@ namespace Cinema
 
         private void dug_Click(object sender, RoutedEventArgs e)
         {
+
             try
             {
+                if (tbNaziv.Text == "" || tbRed.Text == "" || tbTrailer.Text == "" || zanr.praznoMjesto()) throw new Exception("Polja ne smiju biti prazna!");
+
                 brojac++;
                 Film obj = new Film();
                 obj.IdFilma = brojac;
@@ -46,6 +49,12 @@ namespace Cinema
                 obj.Trailer = tbTrailer.Text;
                 userTableObj.InsertAsync(obj);
                 MessageDialog msgDialog = new MessageDialog("Uspješno dodan film!");
+
+                tbNaziv.Text = "";
+                tbRed.Text = "";
+                zanr.isprazniPolje();
+                tbTrailer.Text ="";
+
                 msgDialog.ShowAsync();
             }
             catch (Exception ex)

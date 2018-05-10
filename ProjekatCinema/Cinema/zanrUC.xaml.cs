@@ -29,5 +29,14 @@ namespace Cinema
         public string dajZanr() {
             return zanr1.Text;
         }
-    }
+        public void isprazniPolje() {
+            zanr1.Text = "";
+        }
+        public bool praznoMjesto()
+        {
+            if (zanr1.Text == "") return true;
+            return false;
+        }
+    
+}
 }

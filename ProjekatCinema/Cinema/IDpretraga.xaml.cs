@@ -28,7 +28,11 @@ namespace Cinema
         }
 
         public int dajID() {
-            return int.Parse(idB.Text);
+           return int.Parse(idB.Text);
         }
+        public void isprazniPolje() {
+            idB.Text = "";
+        }
+
     }
 }
