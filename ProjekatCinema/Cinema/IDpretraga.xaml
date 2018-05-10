@@ -11,7 +11,7 @@
 
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="0,0,0,0" FontSize="24" Text="ID filma:" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="100,0,0,-2"  VerticalAlignment="Top" Width="130"/>
+        <TextBox x:Name="idB" HorizontalAlignment="Left" Margin="100,0,0,-2"  VerticalAlignment="Top" Width="130"/>
 
     </Grid>
 </UserControl>

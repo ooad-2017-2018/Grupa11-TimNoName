@@ -40,6 +40,7 @@
             <Button x:ConnectionId='6' x:Name="dRegistracija" Content="Registracija" HorizontalAlignment="Right"  VerticalAlignment="Stretch" Width="150" Height="Auto" Background="#FFBF0D0D" Grid.Row="2"                            />
             <Button x:ConnectionId='7' x:Name="dDodavanje" Content="Dodavanje filmova" HorizontalAlignment="Right"  VerticalAlignment="Stretch" Width="150" Height="Auto" Background="#FFBF0D0D" Grid.Row="3"                         />
             <Button x:ConnectionId='8' x:Name="dAzuriranje" Content="Azuriranje filmova" HorizontalAlignment="Right"  VerticalAlignment="Stretch" Width="150" Height="Auto" Background="#FFBF0D0D" Grid.Row="4"                          />
+            <Button x:ConnectionId='9' x:Name="dBrisanje" Content="Brisanje filmova" HorizontalAlignment="Right"  VerticalAlignment="Stretch" Width="150" Height="Auto" Background="#FFBF0D0D" Grid.Row="5"                        />
         </Grid>
 
     </Grid>

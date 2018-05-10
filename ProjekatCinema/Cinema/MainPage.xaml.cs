@@ -55,5 +55,9 @@ namespace Cinema
             this.Frame.Navigate(typeof(DodavanjeSadržaja));
         }
 
+        private void dBrisanje_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(BrisanjeSadrzaja));
+        }
     }
 }

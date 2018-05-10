@@ -11,6 +11,13 @@ namespace Cinema.Model
         private string username;
         private string password;
 
+        public Administrator()
+        {
+            Username = "nerminamamela";
+            Password = "cao";
+
+        }
+
         public string Username { get => username; set => username = value; }
         public string Password { get => password; set => password = value; }
     }

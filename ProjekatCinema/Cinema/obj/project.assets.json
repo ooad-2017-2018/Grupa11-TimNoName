@@ -25777,18 +25777,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\samir\\.nuget\\packages\\": {},
+    "C:\\Users\\Korisnik\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samir\\Desktop\\New folder (6)\\Grupa11-TimNoName\\ProjekatCinema\\Cinema\\Cinema.csproj",
+      "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\New folder (3)\\Grupa11-TimNoName\\ProjekatCinema\\Cinema\\Cinema.csproj",
       "projectName": "Cinema",
-      "projectPath": "C:\\Users\\samir\\Desktop\\New folder (6)\\Grupa11-TimNoName\\ProjekatCinema\\Cinema\\Cinema.csproj",
-      "packagesPath": "C:\\Users\\samir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samir\\Desktop\\New folder (6)\\Grupa11-TimNoName\\ProjekatCinema\\Cinema\\obj\\",
+      "projectPath": "C:\\Users\\Korisnik\\Desktop\\New folder (3)\\Grupa11-TimNoName\\ProjekatCinema\\Cinema\\Cinema.csproj",
+      "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Korisnik\\Desktop\\New folder (3)\\Grupa11-TimNoName\\ProjekatCinema\\Cinema\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -25796,7 +25796,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\samir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],

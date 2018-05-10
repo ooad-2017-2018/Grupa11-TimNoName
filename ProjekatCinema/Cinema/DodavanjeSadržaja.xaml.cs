@@ -30,12 +30,16 @@ namespace Cinema
             this.InitializeComponent();
         }
         IMobileServiceTable<Film> userTableObj = App.MobileService.GetTable<Film>();
-            
+
+        public static int brojac = 0;
+
         private void dug_Click(object sender, RoutedEventArgs e)
         {
             try
             {
+                brojac++;
                 Film obj = new Film();
+                obj.IdFilma = brojac;
                 obj.Naslov = tbNaziv.Text;
                 obj.Redatelj = tbRed.Text;
                 obj.Zanr = zanr.dajZanr();

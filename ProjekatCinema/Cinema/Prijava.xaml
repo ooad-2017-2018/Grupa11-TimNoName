@@ -13,14 +13,14 @@
             <ImageBrush ImageSource="Assets/pozadina.jpg" Stretch="Fill"/>
         </Grid.Background>
         <Rectangle x:Name="rec" HorizontalAlignment="Left" Height="538" Margin="62,113,0,0" VerticalAlignment="Top" Width="407" Fill="WhiteSmoke" RadiusX="50" RadiusY="50" Opacity="0.80"/>
-        <Button x:Name="dGost" Content="Prijava kao gost" HorizontalAlignment="Left" Margin="113,553,0,0" VerticalAlignment="Top" Width="326" Height="44" Background="#FFAE0F0F" Foreground="White"/>
-        <Button x:Name="dPrijava" Content="Prijava" HorizontalAlignment="Left" Margin="113,457,0,0" VerticalAlignment="Top" Width="326" Height="44"  Background="#FFAE0F0F" Foreground="White"/>
+        <Button x:Name="dGost" Content="Prijava kao gost" HorizontalAlignment="Left" Margin="113,553,0,0" VerticalAlignment="Top" Width="326" Height="44" Background="#FFAE0F0F" Foreground="White" Click="dGost_Click"/>
+        <Button x:Name="dPrijava" Content="Prijava" HorizontalAlignment="Left" Margin="113,457,0,0" VerticalAlignment="Top" Width="326" Height="44"  Background="#FFAE0F0F" Foreground="White" Click="dPrijava_Click"/>
         <TextBlock x:Name="l3" HorizontalAlignment="Left" Margin="118,339,0,0" FontSize="20"  Text="Password:" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock x:Name="l1" HorizontalAlignment="Left" Margin="178,110,0,0" Text="Dobrodošli!" FontSize="30" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock x:Name="l2" HorizontalAlignment="Left" Margin="118,233,0,0" Text="Username:" FontSize="20" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="1.355,0.25"/>
         <TextBox x:Name="pw" HorizontalAlignment="Left" Margin="113,378,0,0" Text="" VerticalAlignment="Top" Width="326" Height="46"/>
         <TextBox x:Name="un" HorizontalAlignment="Left" Margin="113,273,0,0" Text="" VerticalAlignment="Top" Width="326" Height="45"/>
-        <HyperlinkButton x:Name="ll" Content="Registruj se" HorizontalAlignment="Left" Margin="118,508,0,0" VerticalAlignment="Top" Foreground="Black"/>
+        <HyperlinkButton x:Name="ll" Content="Registruj se" HorizontalAlignment="Left" Margin="118,508,0,0" VerticalAlignment="Top" Foreground="Black" Click="ll_Click"/>
 
 
         <VisualStateManager.VisualStateGroups>

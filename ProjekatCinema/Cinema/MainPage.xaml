@@ -40,6 +40,7 @@
             <Button x:Name="dRegistracija" Content="Registracija" HorizontalAlignment="Right"  VerticalAlignment="Stretch" Width="150" Height="Auto" Background="#FFBF0D0D" Grid.Row="2" Click="dRegistracija_Click"/>
             <Button x:Name="dDodavanje" Content="Dodavanje filmova" HorizontalAlignment="Right"  VerticalAlignment="Stretch" Width="150" Height="Auto" Background="#FFBF0D0D" Grid.Row="3" Click="dDodavanje_Click"/>
             <Button x:Name="dAzuriranje" Content="Azuriranje filmova" HorizontalAlignment="Right"  VerticalAlignment="Stretch" Width="150" Height="Auto" Background="#FFBF0D0D" Grid.Row="4" Click="dAzuriranje_Click"/>
+            <Button x:Name="dBrisanje" Content="Brisanje filmova" HorizontalAlignment="Right"  VerticalAlignment="Stretch" Width="150" Height="Auto" Background="#FFBF0D0D" Grid.Row="5" Click="dBrisanje_Click"/>
         </Grid>
 
     </Grid>
