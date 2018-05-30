@@ -1,0 +1,13 @@
+Design Patterns
+Pavao Zornija
+17523
+
+1. Composite Pattern
+Ideja ovog patterna jeste da se grupa objekata tretira kao instanca samo jednog objekta. Primjer bi mogao biti tim i èlan. Tim je skupina nekoliko èlanova. Koristan je pri smanjivanju kolièine koda. Sastoji se od klasa Klijent, Kompozit, IKomponenta, Komponenta. Jedno dobro mjesto za korištenje ovog patterna bi bilo kod Ponude i filma. Film sadrži podatke o sebi, a ponuda sadrži sve filmove uz ove podatke. Ovdje bi bilo dobro iskoristiti ovaj pattern za smanjenje kolièine koda, a i admini bi mogli jednostavnije raditi.
+
+2. Decorator Pattern
+Ovaj Pattern je koristan za dodavanje novih funkcionalnosti na veæ postojeæe objekte. Jedna od osnovnih kvaliteta dobrog koda jeste ponovna upotrebljivost. Bitno je da možemo kod iskoristiti u mnogim situacijama, te da ne moramo ogromne blokove koda mijenjati u potpunosti. Sastoji se od klasa Komponenta, IKomponenta i Decorator. Dobro mjesto za implementaciju ovog patterna bi bilo na adminovoj radnoj površini. Admin mora biti u stanju brzo i efikasno da dodaje nove funkcionalnosti i elemente na aplikaciju.
+
+3. Facade Pattern
+Koristan je kada trebamo dobiti više pogleda visokog nivoa na sistem. Možda jedan korisnik vidi jednu sliku sistema, drugi korisnik drugu sliku i tako vrijedi i za ostale. Sastoji se od klasa Facade i SubsystemClassN. Dobro mjesto za implementaciju bi bilo za razlièite korisnike. U aplikaciji su prisutna dva tipa: Gost korisnici i Registrovani korisnici.
+
