@@ -1,0 +1,52 @@
+Adapter pattern
+
+Osnovna namjena Adapter paterna je da omoguæi širu upotrebu veæ postojeæih klasa. U situacijama
+kada je potreban drugaèiji interfejs veæ postojeæe klase, a ne želimo mijenjati postojeæu klasu koristi
+se Adapter patern. Adapter patern kreira novu adapter klasu koja služi kao posrednik izmeðu
+originalne klase i željenog interfejsa. Tim postupkom se dobija željena funkcionalnost bez izmjena na
+originalnoj klasi i bez ugrožavanja integriteta cijele aplikacije. U sluèaju da originalna klasa sadrži
+samo mali dio funkcionalnosti onda je bolji pristup kreirati novu klasu i zaobiæi korištenje Adapter
+paterna. Adapter patern ustvari mapira interfejs jedne klase u drugu tako da mogu raditi zajedno. 
+
+Adapter patern sadrži
+sljedeæe klase: Client – klasa koja saraðuje sa drugim klasama preko ITarget interfejsa, ITarget –
+definira domen specifièni interfejs koji klijent koristi/zahtjeva (zahtijevani interfejs), Adapter –
+implementira novi zahtijevani interfejs tj. prilagoðava „stari-postojeæi“ interfejs; Adaptee – definira
+postojeæi interfejs koji treba prilagoditi/adaptirati.
+
+Ovaj pattern se ne koristi u našem projektu.
+
+Prototype pattern
+
+Uloga Prototype paterna je da kreira nove objekte klonirajuæi jednu od postojeæih prototip
+instanci (postojeæi objekat). Ako je trošak kreiranja novog objekta velik i kreiranje objekta je
+resursno zahtjevno tada se vrši kloniranje veæ postojeæeg objekata. Prototype dizajn patern
+dozvoljava da se kreiraju prilagoðeni objekti bez poznavanja njihove klase ili detalja kako je
+objekat kreiran.
+
+Osnovni elementi Prototype paterna su: Client klasa -zahtjeva kloniraje postojeæeg objekta
+preko interfejsa IPrototype; IPrototype - interfejs kojim se omoguæava kloniranje
+postojeæih konkretnih objekata. Prototype1, Prototype2,…(konkretni prototipi) - klase
+koje implementiraju kloniranje postojeæih objekata.
+U strukturi paterna može se naæi i klasa PrototypeManager koja održava listu raspoloživih
+tipova za kloniranje i njihovih karakteristika. I sam klijent u tom sluèaju može dodati novi
+prototip objekat.
+
+
+Ovaj pattern se ne koristi u našem projektu.
+
+Proxy pattern
+
+Namjena Proxy paterna je da omoguæi pristup i kontrolu pristupa stvarnim objektima. Proxy je obièno
+mali javni surogat objekat koji predstavlja kompleksni objekat èija aktivizacija se postiže na osnovu
+postavljenih pravila. Proxy patern rješava probleme kada se objekt ne može instancirati direktno (npr.
+zbog restrikcije pristupa). 
+
+Struktura Proxy paterna je sastavljena od klasa (slika 5): Subject (ISubject) zajednièki interfejs za
+realne/stvarne subjekte i proksije-surogate (proxies) koji omoguæava da se oni koriste naizmjenièno.
+RealSubject -je glavni objekat kojeg ‘predstavlja’ proxy. Proxy- implementira isti interfejs kao
+RealSubject tako da se Proxy može koristiti umjesto RealSubject objekta. Proxy vrši kontrolu
+pristupa RealSubject objektu, može kreirati i brisati taj objekat.
+
+Ovaj pattern se ne koristi u našem projektu.
+
