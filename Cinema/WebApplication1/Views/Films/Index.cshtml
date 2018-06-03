@@ -1,0 +1,57 @@
+﻿@model IEnumerable<WebApplication1.Models.Film>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Naslov)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Trailer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Redatelj)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Zanr)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ocjena)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Naslov)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Trailer)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Redatelj)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Zanr)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ocjena)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
