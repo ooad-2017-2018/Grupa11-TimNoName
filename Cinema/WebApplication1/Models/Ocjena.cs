@@ -22,6 +22,10 @@ namespace WebApplication1.Models
         [DisplayName("Komentar")]
         public String Komentar { get; set; }
 
+        [Required]
+        [DisplayName("Film")]
+        public Film Film { get; set; }
+
         public RegistrovaniKorisnik Korisnik { get; set; }
     }
 }

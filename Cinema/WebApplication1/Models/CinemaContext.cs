@@ -13,6 +13,7 @@ namespace WebApplication1.Models
         public CinemaContext() : base("DefaultConnection") { }
 
         public DbSet<RegistrovaniKorisnik> RegistrovaniKorisnik { get; set; }
+        public DbSet<Karta> Karta { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -20,5 +21,9 @@ namespace WebApplication1.Models
         }
 
         public System.Data.Entity.DbSet<WebApplication1.Models.Film> Films { get; set; }
+
+        public System.Data.Entity.DbSet<WebApplication1.Models.Ocjena> Ocjenas { get; set; }
+
+        public System.Data.Entity.DbSet<WebApplication1.Models.RezervacijaKarte> RezervacijaKartes { get; set; }
     }
 }

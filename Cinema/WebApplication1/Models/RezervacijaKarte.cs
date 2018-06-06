@@ -17,11 +17,11 @@ namespace WebApplication1.Models
 
         public int KodNarudzbe { get; set; }
 
-        [Required]
-        [DisplayName("Način plaćanja")]
         public String NacinPlacanja { get; set; }
 
+
         public Karta KartaFilm { get; set;}
+
         public RegistrovaniKorisnik Korisnik { get; set; }
 
     }

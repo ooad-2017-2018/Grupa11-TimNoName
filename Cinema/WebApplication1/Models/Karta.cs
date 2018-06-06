@@ -14,8 +14,8 @@ namespace WebApplication1.Models
         public int Id { get; set; }
 
         [Required]
-        [DisplayName("Broj karata")]
-        public int BrojKarata { get; set; }
+        [DisplayName("Naziv filma")]
+        public String NazivFilma { get; set; }
 
         [Required]
         [DisplayName("Datum prikazivanja")]
@@ -23,7 +23,7 @@ namespace WebApplication1.Models
 
         [Required]
         [DisplayName("Sjedište")]
-        public List<int> BrojSjedista { get; set; }
+        public int BrojSjedista { get; set; }
 
         public Double UkupnaCijena { get; set; }
 
