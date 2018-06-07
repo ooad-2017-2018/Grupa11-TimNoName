@@ -233,6 +233,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\cinema.jpg" />
+    <Content Include="Images\maxresdefault.jpg" />
+    <Content Include="Images\nova.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -309,6 +312,7 @@
     <Content Include="Views\RezervacijaKartes\Details.cshtml" />
     <Content Include="Views\RezervacijaKartes\Edit.cshtml" />
     <Content Include="Views\RezervacijaKartes\Index.cshtml" />
+    <Content Include="Views\Home\Mapa.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
