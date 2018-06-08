@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="CinemaModel-Web.config Connection String" description="CinemaModel Connection String used in web.config by the application to access the database." defaultValue="data source=ooadcinema.database.windows.net;initial catalog=ooadcinema;user id=samira;password=Krokodil147;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\korisnik\\source\\repos\\CinemaWebApp\\CinemaWebApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CinemaModel']/@connectionString" />
+  </parameter>
+</parameters>

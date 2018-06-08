@@ -4,6 +4,9 @@ using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using WebApplication1.Models;
@@ -15,9 +18,42 @@ namespace WebApplication1.Controllers
         private CinemaContext db = new CinemaContext();
 
         // GET: RegistrovaniKorisniks
-        public ActionResult Index()
+        /*public ActionResult Index()
         {
             return View(db.RegistrovaniKorisnik.ToList());
+        }*/
+
+
+            string apiUrl = "http://cinemawebapp20180607115022.azurewebsites.net/";
+        public async Task<ActionResult> Index()
+        {
+            List<RegistrovaniKorisnik> regKorisnici = new List<RegistrovaniKorisnik>();
+            using (var client = new HttpClient())
+            {
+
+                //Postavljanje adrese URL od web api servisa
+                client.BaseAddress = new Uri(apiUrl);
+                client.DefaultRequestHeaders.Clear();
+
+                //definisanje formata koji želimo prihvatiti
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                //Asinhrono slanje zahtjeva za podacima o korisnicima
+
+                HttpResponseMessage Res = await client.GetAsync("api/Korisniks");
+                //Provjera da li je rezultat uspješan
+                if (Res.IsSuccessStatusCode)
+                {
+                    //spremanje podataka dobijenih iz responsa
+                    var response = Res.Content.ReadAsStringAsync().Result;
+
+                    //Deserijalizacija responsa dobijenog iz apija i pretvaranje u listu studenata
+                    //korisnici = JsonConvert.DeserializeObject<List<Korisnik>>(response);
+
+                    regKorisnici = (List<RegistrovaniKorisnik>)Newtonsoft.Json.JsonConvert.DeserializeObject(response, typeof(List<RegistrovaniKorisnik>));
+                }
+
+                return View(regKorisnici);
+            }
         }
 
         // GET: RegistrovaniKorisniks/Details/5
