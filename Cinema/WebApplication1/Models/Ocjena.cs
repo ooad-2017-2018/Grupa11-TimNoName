@@ -16,6 +16,7 @@ namespace WebApplication1.Models
 
         [Required]
         [DisplayName("Ocjena")]
+        [Range(1,5)]
         public int BrojOcjena { get; set; }
 
         [Required]

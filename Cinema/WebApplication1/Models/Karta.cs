@@ -22,8 +22,12 @@ namespace WebApplication1.Models
         public DateTime DatumPrikazivanja { get; set; }
 
         [Required]
+        [Range(1,50)]
         [DisplayName("Sjedište")]
         public int BrojSjedista { get; set; }
+
+        [Required]
+        [Range(1,2000)]
 
         public Double UkupnaCijena { get; set; }
 

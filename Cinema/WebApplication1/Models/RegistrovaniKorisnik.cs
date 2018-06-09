@@ -25,6 +25,7 @@ namespace WebApplication1.Models
 
         [Required]
         [DisplayName("Password")]
+        [MinLength(8)]
         public string Password { get; set; }
 
         [Required]
@@ -37,6 +38,7 @@ namespace WebApplication1.Models
 
         [Required]
         [DisplayName("Email")]
+        [EmailAddress]
         public string Email { get; set; }
 
 

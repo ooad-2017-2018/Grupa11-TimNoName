@@ -27,6 +27,7 @@ namespace WebApplication1.Models
         [DisplayName("Žanr")]
         public String Zanr { get; set; }
 
+        [Range(1, 5)]
         public int Ocjena { get; set; }
     }
 }
