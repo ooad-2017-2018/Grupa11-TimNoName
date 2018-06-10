@@ -27,6 +27,6 @@ namespace WebApplication1.Models
         [DisplayName("Film")]
         public Film Film { get; set; }
 
-        public RegistrovaniKorisnik Korisnik { get; set; }
+        public RegistrovaniKorisnik Korisnik { get; }
     }
 }

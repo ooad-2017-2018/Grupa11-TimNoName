@@ -11,6 +11,6 @@ namespace WebApplication1.Models
 {
     public class GostKorisnik
     {
-        public int Id { get; set; }
+        public int Id { get;}
     }
 }

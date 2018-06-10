@@ -1,0 +1,21 @@
+1. Refaktoring na osnovu kataloga refaktoringa
+
+Edina Kovaè 
+ - Rename method - Metoda ne otkriva svoju upotrebu
+   U klasi PonudaFilmova, metoda filmovi preimenovana u DostupniFilmovi.
+   Metoda VratiFilm preimenovana u FilmNaPoziciji.
+ 
+ - Replace Error Code With Exception - ako postoji dio koda koji ukazuje na grešku, 
+   potrebno je umjesto tog koda baciti izuzetak. 
+   Svaka metoda koja je imala dio koda koji ukazuje na grešku, modifikovana je tako da baca izuzetak.
+
+Samira Mamela
+ - Remove Setting Method - ako postoji polje koje se ne smije mijenjati nakon postavljene vrijednosti,
+   ukloniti taj setter.
+   U klasama koje su imale atribute koji se ne smiju mijenjati nakon prvobitno postavljene vrijednosti
+   uklonjeni setteri.
+
+2. Refaktoring u dizajn patterne
+Edina Kovaè i Samira Mamela
+ - Proxy pattern - iskorišten u UWP dijelu aplikacije, prilikom pristupa korisnicima - vrši se provjera da li
+   korisnik postoji, te je li ispravan uneseni password.	
